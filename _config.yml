@@ -1,0 +1,29 @@
+title: "GRAMA Documentation"
+remote_theme: "pmarsceill/just-the-docs"
+description: "Documentation describing the GRAMA platform."
+baseurl: "/"
+url: "https://docs.gramachain.com"
+permalink: "pretty"
+exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "Rakefile"]
+logo: "https://gramachain.com/img/grama-logo.png"
+search_enabled: true
+search_tokenizer_separator: /[\s/]+/
+heading_anchors: true
+destination: ./docs
+aux_links:
+  "Github":
+    - "https://github.com/gramachain"
+  "Website":
+    - "https://gramachain.com"
+footer_content: "Copyright &copy; 2020 The GRAMA Foundation"
+color_scheme: nil  # dark
+#ga_tracking: UA-2709176-10 # Google Analytics Tracking (optional)
+plugins:
+  - "jekyll-seo-tag"
+compress_html:
+  clippings: "all"
+  comments: "all"
+  endings: "all"
+  startings: []
+  blanklines: false
+  profile: false
